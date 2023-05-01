@@ -18,120 +18,120 @@ function Home() {
             {/*List*/}
             <div className="list-community">
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
                     <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
+                        <h3 className="community-title">HackOverFlow</h3>
+                        <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
                         <ul className="community-metadata">
                             <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
                             <li><i className="fas fa-globe"></i> Offline</li>
                             <li><i className="fas fa-dollar-sign"></i>paying $500</li>
                         </ul>
-                        <a href="#" className="community-button">Apply Now</a>
+
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
                     <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
+                        <h3 className="community-title">HackOverFlow</h3>
+                        <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
                         <ul className="community-metadata">
                             <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
                             <li><i className="fas fa-globe"></i> Offline</li>
                             <li><i className="fas fa-dollar-sign"></i>paying $500</li>
                         </ul>
-                        <a href="#" className="community-button">Apply Now</a>
+
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
                     <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
+                        <h3 className="community-title">HackOverFlow</h3>
+                        <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
                         <ul className="community-metadata">
                             <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
                             <li><i className="fas fa-globe"></i> Offline</li>
                             <li><i className="fas fa-dollar-sign"></i>paying $500</li>
                         </ul>
-                        <a href="#" className="community-button">Apply Now</a>
+
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
                     <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
+                        <h3 className="community-title">HackOverFlow</h3>
+                        <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
                         <ul className="community-metadata">
                             <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
                             <li><i className="fas fa-globe"></i> Offline</li>
                             <li><i className="fas fa-dollar-sign"></i>paying $500</li>
                         </ul>
-                        <a href="#" className="community-button">Apply Now</a>
+
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
                     <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
+                        <h3 className="community-title">HackOverFlow</h3>
+                        <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
                         <ul className="community-metadata">
                             <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
                             <li><i className="fas fa-globe"></i> Offline</li>
                             <li><i className="fas fa-dollar-sign"></i>paying $500</li>
                         </ul>
-                        <a href="#" className="community-button">Apply Now</a>
+
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
                     <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
+                        <h3 className="community-title">HackOverFlow</h3>
+                        <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
                         <ul className="community-metadata">
                             <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
                             <li><i className="fas fa-globe"></i> Offline</li>
                             <li><i className="fas fa-dollar-sign"></i>paying $500</li>
                         </ul>
-                        <a href="#" className="community-button">Apply Now</a>
+
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
                     <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
+                        <h3 className="community-title">HackOverFlow</h3>
+                        <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
                         <ul className="community-metadata">
                             <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
                             <li><i className="fas fa-globe"></i> Offline</li>
                             <li><i className="fas fa-dollar-sign"></i>paying $500</li>
                         </ul>
-                        <a href="#" className="community-button">Apply Now</a>
+
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
                     <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
+                        <h3 className="community-title">HackOverFlow</h3>
+                        <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
                         <ul className="community-metadata">
                             <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
                             <li><i className="fas fa-globe"></i> Offline</li>
                             <li><i className="fas fa-dollar-sign"></i>paying $500</li>
                         </ul>
-                        <a href="#" className="community-button">Apply Now</a>
+
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
                     <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
+                        <h3 className="community-title">HackOverFlow</h3>
+                        <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
                         <ul className="community-metadata">
                             <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
                             <li><i className="fas fa-globe"></i> Offline</li>
                             <li><i className="fas fa-dollar-sign"></i>paying $500</li>
                         </ul>
-                        <a href="#" className="community-button">Apply Now</a>
+
                     </div>
                 </div>
             </div>
