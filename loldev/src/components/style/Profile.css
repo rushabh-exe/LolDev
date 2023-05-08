@@ -1,0 +1,154 @@
+/*profile.js*/
+.left-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+  .user-info-box {
+    position: relative;
+    max-width: 500px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+  }
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 230px;
+    z-index: 1;
+    opacity: 0.3;
+  }
+  .user-pfp {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: 20px auto;
+    z-index: 2;
+  }
+  .username-inbox {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .user-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .user-email,
+  .user-contact {
+    margin-bottom: 10px;
+  }
+  
+  
+  .chat-box {
+    max-width: 500px;
+    min-width: 350px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    right: 20px;
+    bottom: 20px;
+    overflow: hidden;
+    position: fixed;
+    transition: transform 0.5s ease;
+    display: none;
+    z-index: 99999;
+  }
+  
+  .chat-box.show-chat-box {
+    display: block;
+  }
+  
+  .chat-box.hide-chat-box {
+    display: none;
+  }
+  
+  .chat-box header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    height: 40px;
+    text-align: center;
+  }
+  
+  .chat {
+    height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  
+  .bot-message {
+    background-color: #e5e5ea;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .chat-box footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .chat-box footer input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #007bff;
+    outline: none;
+    margin-right: 10px;
+  }
+  
+  .send-button,
+  .cancel-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .send-button:hover,
+  .cancel-button:hover {
+    background-color: #0056b3;
+  }
+  .open-chat-button {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    background-color: #dddddd;
+    color: rgb(49, 49, 49);
+    font-weight: 700;
+    height: 50px;
+    width: 50px;
+    z-index: 999;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 0px 5px rgb(219, 218, 218);
+    animation: linearr 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes linearr {
+    from {
+      right: -50px;
+    }
+    to {
+      right: 5px;
+    }
+  }

@@ -1,37 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react';
+import './style/New.css';
 
 function New() {
+  const [banner, setBanner] = useState('');
+
+  const handleBannerChange = (e) => {
+    setBanner(URL.createObjectURL(e.target.files[0]));
+  };
+
   return (
-    <div className="new-content">
-      <div className="heading">
-        <h2>New</h2>
+    <>
+      <div className="container-uph">
+        <form action="submit">
+          <div className="uph-info">
+            <div className="uph-flexbox">
+              <input type="text" name="htn-title" id="htn-title" placeholder='Name Of Hackathon' />
+              <input type="date" name="htn-date" id="htn-date" />
+              <input type="number" name="htn-team-size" id="htn-team-size" placeholder='Set Team Size Limit' />
+              <input type="text" name="htn-location" id="htn-location" placeholder='Location Of Hackathon And Location Pincode eg.(New York - 5585858' />
+
+            </div>
+            <div className="uph-flexbox">
+
+              <input type="text" name="htn-description" id="htn-description" placeholder='Write A Description For Your Hackathon' />
+              <input type="text" name="htn-description" id="htn-short-description" placeholder='Write A Short Description For Your Hackathon To Show On Hackathon Card' />
+
+            </div>
+
+            <input type="file" name="htn-banner" id="htn-banner" accept="image/*" onChange={handleBannerChange} />
+          </div>
+          {banner && <img className='htn-banner-preview' src={banner} alt="Hackathon Banner Preview" />}
+          <div className="uph-publish">
+            <button type="submit">Publish</button>
+            <button type="button">Edit</button>
+            <button type="button">Delete</button>
+          </div>
+        </form>
+
       </div>
-      <div className="divider">
-        <hr style={{ width: "100%" }} />
-        <select name="Choose" id="relevant-select">
-          <option value="New">New</option>
-          <option value="Most-Popular">Most-Popular</option>
-          <option value="Most-Vacancy">Most-Vacancy</option>
-        </select>
-      </div>
-       {/*New-main*/}
-       <div className="list-community">
-       <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
-                    <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
-                        <ul className="community-metadata">
-                            <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
-                            <li><i className="fas fa-globe"></i> Offline</li>
-                            <li><i className="fas fa-dollar-sign"></i>paying $500</li>
-                        </ul>
-                        <a href="#" className="community-button">Apply Now</a>
-                    </div>
-                </div>
-       </div>
-    </div>
+    </>
   )
 }
 
-export default New
+export default New;

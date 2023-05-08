@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './style/Chat.css'
 
 function Chat() {
   const [voteCount, setVoteCount] = useState(0);

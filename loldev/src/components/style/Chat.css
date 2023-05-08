@@ -1,0 +1,113 @@
+/*chat.js*/
+.community-box {
+    width: 70%;
+    height: 90%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .community-box header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #23b2e6;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    font-weight: 700;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 26px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .post-pannel {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 5px;
+    overflow-y: scroll;
+    height: 400px;
+    gap: 10px;
+  }
+  .community-post-box {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-title h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .post-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .post-username {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+    font-style: italic;
+  }
+  
+  .the-post-message {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .post-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .post-buttons button {
+    border: none;
+    background-color: transparent;
+    color: #999;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .post-buttons button:hover {
+    color: #333;
+  }
+  
+  .post-buttons .upvote-post:hover,
+  .post-buttons .downvote-post:hover,
+  .post-buttons .comment-post:hover,
+  .post-buttons .share-post:hover,
+  .post-buttons .bookmark-post:hover {
+    color: #23b2e6;
+  }
+  
+  .post-buttons .vote-count-post {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-right: 5px;
+  }
+  
+  .post-buttons .comment-post,
+  .post-buttons .share-post,
+  .post-buttons .bookmark-post {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }

@@ -1,35 +1,145 @@
 import React from 'react'
+import './style/Dev.css'
 
 function Dev() {
   return (
-    <div className="dev-content">
-      <div className="heading">
-        <h2>Dev</h2>
+    <div>
+      <div className="dev-heading">
+        <div className="heading">
+          <h2>Developers</h2>
+        </div>
+        <div className="divider">
+          <hr />
+          <select name="sort" id="relevant-select">
+            <option value="newest">Newest</option>
+            <option value="most-popular">Most Popular</option>
+            <option value="most-skilled">Most Skilled</option>
+          </select>
+        </div>
       </div>
-      <div className="divider">
-        <hr style={{ width: "100%" }} />
-        <select name="Choose" id="relevant-select">
-          <option value="New">New</option>
-          <option value="Most-Popular">Most-Popular</option>
-          <option value="Most-Vacancy">Most-Vacancy</option>
-        </select>
+      <div className="developers-list">
+        <div className="developer-card">
+          <div className="developer-image">
+            <img src="https://picsum.photos/100/100" alt="dev" />
+          </div>
+          <div className="developer-info">
+            <div className="developer-name">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                Rohan
+              </a>
+            </div>
+            <div className="developer-Skills">
+              <div className="skill">HTML</div>
+              <div className="skill">CSS</div>
+              <div className="skill">JavaScript</div>
+              <div className="skill">JavaScript</div>
+              <div className="skill">JavaScript</div>
+              <div className="skill">JavaScript</div>
+
+              <div className="skill">JavaScript</div>
+            </div>
+          </div>
+          <div className="hire-tem">
+            <p>5$ per hour</p>
+            <button className="hire-developer">Hire</button>
+          </div>
+        </div>
+        <div className="developer-card">
+          <div className="developer-image">
+            <img src="https://picsum.photos/100/100" alt="dev" />
+          </div>
+          <div className="developer-info">
+            <div className="developer-name">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                Rohan
+              </a>
+            </div>
+            <div className="developer-Skills">
+              <div className="skill">HTML</div>
+              <div className="skill">CSS</div>
+              <div className="skill">CSS</div>
+              <div className="skill">CSS</div>
+              <div className="skill">CSS</div>
+              <div className="skill">CSS</div>
+              <div className="skill">CSS</div>
+
+              <div className="skill">JavaScript</div>
+            </div>
+          </div>
+          <div className="hire-tem">
+            <p>5$ per hour</p>
+            <button className="hire-developer">Hire</button>
+          </div>
+        </div>
+        <div className="developer-card">
+          <div className="developer-image">
+            <img src="https://picsum.photos/100/100" alt="dev" />
+          </div>
+          <div className="developer-info">
+            <div className="developer-name">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                Rohan
+              </a>
+            </div>
+            <div className="developer-Skills">
+              <div className="skill">HTML</div>
+
+              <div className="skill">HTML</div>
+              <div className="skill">HTML</div>
+              <div className="skill">HTML</div>
+              <div className="skill">HTML</div>
+              <div className="skill">CSS</div>
+              <div className="skill">JavaScript</div>
+            </div>
+          </div>
+          <div className="hire-tem">
+            <p>5$ per hour</p>
+            <button className="hire-developer">Hire</button>
+          </div>
+        </div>
+        <div className="developer-card">
+          <div className="developer-image">
+            <img src="https://picsum.photos/100/100" alt="dev" />
+          </div>
+          <div className="developer-info">
+            <div className="developer-name">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                Rohan
+              </a>
+            </div>
+            <div className="developer-Skills">
+              <div className="skill">HTML</div>
+              <div className="skill">CSS</div>
+              <div className="skill">JavaScript</div>
+            </div>
+          </div>
+          <div className="hire-tem">
+            <p>5$ per hour</p>
+            <button className="hire-developer">Hire</button>
+          </div>
+        </div>
+        <div className="developer-card">
+          <div className="developer-image">
+            <img src="https://picsum.photos/100/100" alt="dev" />
+          </div>
+          <div className="developer-info">
+            <div className="developer-name">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                Rohan
+              </a>
+            </div>
+            <div className="developer-Skills">
+              <div className="skill">HTML</div>
+              <div className="skill">CSS</div>
+              <div className="skill">JavaScript</div>
+            </div>
+          </div>
+          <div className="hire-tem">
+            <p>5$ per hour</p>
+            <button className="hire-developer">Hire</button>
+          </div>
+        </div>
       </div>
-       {/*Dev-main*/}
-       <div className="list-community">
-       <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="community Cover Image" />
-                    <div className="community-details">
-                        <h3 className="community-title">community Title</h3>
-                        <p className="community-description">Short description of the community.</p>
-                        <ul className="community-metadata">
-                            <li><i className="fas fa-calendar-alt"></i> July 1 - 7, 2022</li>
-                            <li><i className="fas fa-globe"></i> Offline</li>
-                            <li><i className="fas fa-dollar-sign"></i>paying $500</li>
-                        </ul>
-                        <a href="#" className="community-button">Apply Now</a>
-                    </div>
-                </div>
-       </div>
     </div>
   )
 }

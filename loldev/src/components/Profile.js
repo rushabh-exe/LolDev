@@ -1,6 +1,7 @@
 import React from "react";
+import './style/Profile.css';
 
-function Home2() {
+function Profile() {
 
   
   return (
@@ -62,4 +63,4 @@ function Home2() {
   );
 }
 
-export default Home2;
+export default Profile;

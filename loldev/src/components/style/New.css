@@ -1,0 +1,102 @@
+.container-uph {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);  
+  border-radius: 10px;
+}
+
+.uph-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.uph-flexbox{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.uph-info input[type="text"],
+.uph-info input[type="date"],
+.uph-info input[type="number"],
+.uph-info input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  text-align: left;
+  vertical-align: top;
+}
+
+.uph-info input[type="file"] {
+  border: none;
+}
+
+.uph-info input[type="file"]::-webkit-file-upload-button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.uph-publish {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.uph-publish button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.uph-publish button[type="submit"] {
+  background: #3498db;
+  color: #fff;
+}
+
+.uph-publish button[type="button"] {
+  background: #fff;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+.htn-banner-preview{
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#htn-description,
+#htn-short-description {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  resize: none;
+}
+
+
+#htn-description {
+  height: 200px;
+}
+#htn-banner{
+  margin: 0;
+padding: 0;}
+#htn-short-description {
+height: 100px;
+}

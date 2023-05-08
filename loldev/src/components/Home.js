@@ -1,4 +1,5 @@
 import React from 'react';
+import './style/Home.css';
 
 function Home() {
     return (
@@ -18,7 +19,7 @@ function Home() {
             {/*List*/}
             <div className="list-community">
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover" />
                     <div className="community-details">
                         <h3 className="community-title">HackOverFlow</h3>
                         <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
@@ -31,7 +32,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover " />
                     <div className="community-details">
                         <h3 className="community-title">HackOverFlow</h3>
                         <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
@@ -44,7 +45,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover " />
                     <div className="community-details">
                         <h3 className="community-title">HackOverFlow</h3>
                         <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
@@ -57,7 +58,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover " />
                     <div className="community-details">
                         <h3 className="community-title">HackOverFlow</h3>
                         <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
@@ -70,7 +71,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover " />
                     <div className="community-details">
                         <h3 className="community-title">HackOverFlow</h3>
                         <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
@@ -83,7 +84,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover " />
                     <div className="community-details">
                         <h3 className="community-title">HackOverFlow</h3>
                         <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
@@ -96,7 +97,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover " />
                     <div className="community-details">
                         <h3 className="community-title">HackOverFlow</h3>
                         <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
@@ -109,7 +110,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover " />
                     <div className="community-details">
                         <h3 className="community-title">HackOverFlow</h3>
                         <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>
@@ -122,7 +123,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="community-card">
-                    <img src="https://picsum.photos/100/100" alt="hackathons cover image" />
+                    <img src="https://picsum.photos/100/100" alt="hackathons cover " />
                     <div className="community-details">
                         <h3 className="community-title">HackOverFlow</h3>
                         <p className="community-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, ipsum? Sint, cupiditate perspiciatis eius unde suscipit molestias amet facilis, nihil maxime, exercitationem commodi id fugit. Incidunt quasi sapiente atque magnam!</p>

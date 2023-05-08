@@ -60,13 +60,13 @@ function App() {
             className="menu-btn"
             onClick={() => handleButtonClick(<Profileedt />)}
           >
-            Info
+            Edit Profile
           </button>
           <button
             className="menu-btn"
             onClick={() => handleButtonClick(<Chat />)}
           >
-            Chat
+            Community
           </button>
         </div>
       </div>
